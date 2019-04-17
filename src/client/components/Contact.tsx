@@ -40,7 +40,7 @@ export default class Contact extends React.Component<ContactProps, ContactState>
                 </section>
                 <section className="col-12 text-center text-success"><h1>Contact Me: Rigged Version, you select who receives the contact</h1></section>
                 <section className="col-3"></section>
-                <section className="col-6">
+                <section className="col-md-6">
                 <form className="form-group mt-5 border border-primary rounded p-3 shadow-lg bg-info">
                     <section className="form-group">
                         <label>Email</label>
