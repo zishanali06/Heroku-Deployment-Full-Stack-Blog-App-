@@ -15,7 +15,7 @@ export default class Blogcard extends React.Component<IBlogcardProps, IBlogcardS
             this.props.post.content = this.props.post.content.slice(0,90).concat('...');
         }
         return (
-            <section className="col-4 mt-3">
+            <section className="col-md-4 mt-3">
                 <div className="card shadow-lg">
                 <img className="card-img-top" src="https://vignette.wikia.nocookie.net/gameofthrones/images/8/8a/House-Stark-Main-Shield.PNG" alt="Card image cap"></img>
                     <div className="card-body">
