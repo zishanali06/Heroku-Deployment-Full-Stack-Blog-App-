@@ -18,7 +18,6 @@ const charge = (token: string, amt: number) => {
 router.post('/', async (req, res, next) => {
     try{
         let data = await charge(req.body.token.id, req.body.amount);
-        console.log(data);
         res.status(200).json(`Card Charged for ${req.body.amount}`);
     } catch(e) {
         console.log(e);
